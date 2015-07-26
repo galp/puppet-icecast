@@ -24,5 +24,10 @@ class icecast (
     content => "ENABLE=true",
     notify  => Service['icecast2']
   }
+  firewall { '201 allow icecast ports':
+    port   => [ $port ],
+    proto  => tcp,
+    action => accept,
+  }
 
 }
