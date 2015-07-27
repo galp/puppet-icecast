@@ -3,7 +3,7 @@ class icecast (
   $admin_pass  = 'icecast',
   $relay_pass  = 'icecast',
   $location    = 'Wonderland',
-  $port        = '8000',
+  $port        = '8800',
 )
 {
   package {'icecast2':
