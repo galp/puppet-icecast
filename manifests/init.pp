@@ -4,7 +4,7 @@ class icecast (
   $relay_pass  = 'icecast',
   $location    = 'Wonderland',
   $port        = '8000',
-  $hostname    = 'localhost'
+  $hostname    = 'localhost',
   $admin_email = 'admin@example.com',
 )
 {
