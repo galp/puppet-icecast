@@ -5,6 +5,6 @@
     "license": "MIT",
     "summary": "puppet module to setup icecast for debian",
     "source": "https://github.com/galp/puppet-icecast",
-    "project_page": "https://github.com/galp/puppet-icecast"
+    "project_page": "https://github.com/galp/puppet-icecast",
     "dependencies": []
 }
