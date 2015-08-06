@@ -3,7 +3,9 @@ class icecast (
   $admin_pass  = 'icecast',
   $relay_pass  = 'icecast',
   $location    = 'Wonderland',
-  $port        = '8800',
+  $port        = '8000',
+  $hostname    = 'localhost'
+  $admin_email = 'admin@example.com',
 )
 {
   package {'icecast2':
