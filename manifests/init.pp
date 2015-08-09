@@ -23,7 +23,7 @@ class icecast (
   }
   file {'/etc/default/icecast2':
     ensure  => present,
-    content => "ENABLE=true",
+    content => 'ENABLE=true',
     notify  => Service['icecast2']
   }
   firewall { '201 allow icecast ports':
